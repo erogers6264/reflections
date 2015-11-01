@@ -1,0 +1,63 @@
+1. How did viewing a diff between two versions of a file help you
+see the bug that was introduced?
+
+When I see the differences, it calls attention to what
+could have broken the code. I pay extra care to what
+the diff outputs because of this possibility.
+
+2. How could having easy access to the entire history of a file
+make you a more efficient programmer in the long term?
+
+You are able to jump between changes easily, in case you
+break something, saving time. It also reinforces programming
+as an iterative processes rather than a linear one. Git
+seems to help you organize multiple versions of many files
+at once.
+
+3. What do you think are the pros and cons of manually choosing when
+to create a commit, like you do in Git, vs having versions automatically
+saved, like Google Docs does?
+
+Manually like Git
+-Pros: Power to the user! Logical commits which are isolated to
+a certain kind of change.
+-Cons: Judgment call for size of commits, may not suit
+another programmer trying to understand the git diff
+
+Automatically like Google Docs
+-Pros: Less room for user error.
+-Cons:Changes are not logical and there are lot of them to go through.
+
+4. Why do you think some version control systems, like Git, allow saving
+multiple files in one commit, while others, like Google Docs, treat each file
+separately?
+
+In programming, a lot of files are usually interconnected, so adding a feature
+might affect multiple files. Google Docs sees documents as separate because
+they are more likely to contain very different content. Documents tend to be
+much longer and only worked on one at a time.
+
+5. How can you use the commands git log and git diff to view the history of
+files?
+
+You can type git log to find the commits you want to compare.
+Type git diff first id second id to see the difference. +'s are insertions
+while -'s are deletions.
+
+6. How might using version control make you more confident to make changes that
+could break something?
+
+Such a great question. You have the freedom to move to different states of your
+files and make changes without affecting other states. You can even make a new
+branch if the changes you make end up being ones you want to commit to the
+final product.
+
+
+7. Now that you have your workspace set up, what do you want to try using Git
+for?
+
+I want to make large changes on the movie trailer website I just submitted.
+I want to see how much I can fiddle with the tile size and colors.
+I also would like to return to the fractal program I made and try out different
+numbers and more complex recursive functions, perhaps even making a whole new
+view.
