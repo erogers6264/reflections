@@ -1,13 +1,16 @@
-What happens when you initialize a repository? Why do you need to do it? When you initialize a repository, git creates
+What happens when you initialize a repository? Why do you need to do it? 
+When you initialize a repository, git creates
 all the setup files and structures needed to start tracking
 your versions. You need to do it to show the location of the directory that you want to version control.
 
 
-How is the staging area different from the working directory and the repository?
-What value do you think it offers?
+How is the staging area different from the working directory and the repository? What value do you think it offers? 
+It is an intermediate area between the wd and the repository. It is a sort of limbo for the changes you have made, so you can organize them how you'd like before you actually commit the changes.
 
-How can you use the staging area to make sure you have one commit per logical
-change?
+How can you use the staging area to make sure you have one commit per logical change?
+You can use the staging area to pick and choose which changes
+belong together, and commit other logical changes seperately.
+It gives you more control over how the changes are committed.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
