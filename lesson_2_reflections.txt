@@ -12,8 +12,11 @@ You can use the staging area to pick and choose which changes
 belong together, and commit other logical changes seperately.
 It gives you more control over how the changes are committed.
 
-What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
+What are some situations when branches would be helpful in keeping your history organized? How would branches help? Branches would be helpful if
+you would like to experiment with your code by adding new features, or 
+deeply exploring its architecture. They help because they provide an area
+for you to freely change and break code without messing up the working 
+master.
 
 How do the diagrams help you visualize the branch structure?
 
