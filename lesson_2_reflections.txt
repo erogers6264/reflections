@@ -19,6 +19,10 @@ for you to freely change and break code without messing up the working
 master.
 
 How do the diagrams help you visualize the branch structure?
+They help me visualize by being able to trace backward and
+forward through. I could easily see that the head was going
+to be unreachable through the diagram. I could draw diagrams
+for my own projects.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
