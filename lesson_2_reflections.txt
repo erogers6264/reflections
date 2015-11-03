@@ -29,5 +29,5 @@ the diagram the way we do? All of the changes from the branch get incorporated
 into the currently checked out branch. The way you represent it in the diagram
 shows two separate tracks of work being combined into one.
 
-What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
