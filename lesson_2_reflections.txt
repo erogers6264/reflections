@@ -1,10 +1,10 @@
-What happens when you initialize a repository? Why do you need to do it? 
+What happens when you initialize a repository? Why do you need to do it?
 When you initialize a repository, git creates
 all the setup files and structures needed to start tracking
 your versions. You need to do it to show the location of the directory that you want to version control.
 
 
-How is the staging area different from the working directory and the repository? What value do you think it offers? 
+How is the staging area different from the working directory and the repository? What value do you think it offers?
 It is an intermediate area between the wd and the repository. It is a sort of limbo for the changes you have made, so you can organize them how you'd like before you actually commit the changes.
 
 How can you use the staging area to make sure you have one commit per logical change?
@@ -13,9 +13,9 @@ belong together, and commit other logical changes seperately.
 It gives you more control over how the changes are committed.
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help? Branches would be helpful if
-you would like to experiment with your code by adding new features, or 
+you would like to experiment with your code by adding new features, or
 deeply exploring its architecture. They help because they provide an area
-for you to freely change and break code without messing up the working 
+for you to freely change and break code without messing up the working
 master.
 
 How do the diagrams help you visualize the branch structure?
@@ -25,8 +25,9 @@ to be unreachable through the diagram. I could draw diagrams
 for my own projects.
 
 What is the result of merging two branches together? Why do we represent it in
-the diagram the way we do?
+the diagram the way we do? All of the changes from the branch get incorporated
+into the currently checked out branch. The way you represent it in the diagram
+shows two separate tracks of work being combined into one.
 
 What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
-
