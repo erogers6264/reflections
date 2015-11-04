@@ -31,3 +31,11 @@ shows two separate tracks of work being combined into one.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+Auto:
+-Pros: Obviously convenience. You are able to quickly integrate new features
+from other branches.
+-Cons: Not always accurate, not as smart as expert programmers.
+
+Manual:
+-Pros: Full control
+-Cons: Takes a long time.
