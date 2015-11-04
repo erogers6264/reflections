@@ -1,0 +1,3 @@
+When would you want to create a remote repository rather than keeping all your work local?
+Having a remote repository means that you can work from multiple computers in multiple
+locations and have others collaborate and push changes to it. 
