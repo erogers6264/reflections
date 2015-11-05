@@ -16,3 +16,6 @@ servers. A clone is when you duplicate a repository from GitHub onto your own
 computer, or when you duplicate a repository on your own computer, and a branch
 is when you make a copy of your code separate from 'master' or production. This
 code can be experimented with to add new features, languages, etc.
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
