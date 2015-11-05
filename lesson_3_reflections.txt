@@ -1,6 +1,9 @@
 When would you want to create a remote repository rather than keeping all your work local?
 Having a remote repository means that you can work from multiple computers in multiple
-locations and have others collaborate and push changes to it. 
+locations and have others collaborate and push changes to it.
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 So that your work is not changed by someone else's coding. You need to manually pull so you can resolve any conflicts.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+These are similar concepts, but they have distinct differences. A fork is when you duplicate someone else's repository to your own account on GitHub's servers. A clone is when you duplicate a repository from GitHub onto your own computer, or when you duplicate a repository on your own computer, and a branch is when you make a copy of your code separate from 'master' or production. This code can be experimented with to add new features, languages, etc.
